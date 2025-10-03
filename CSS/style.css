@@ -82,3 +82,41 @@ section p {
     border-radius: 10px;
     margin-bottom: 10px;
 }
+/* contact */
+form {
+    max-width: 400px;
+    margin: auto;
+    text-align: left;
+}
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+form input, 
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border: 5px;
+}
+form input[type="submit"] {
+    background: #333;
+    color: #ffffff;
+    cursor: pointer;
+}
+form input[type="submit"]:hover {
+    background: #555;
+
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
