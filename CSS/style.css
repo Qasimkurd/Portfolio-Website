@@ -29,3 +29,56 @@ nav a {
 nav a:hover {
     color: #ffff00;
 }
+/* Hero Section */
+.hero {
+    background: #535353;
+    color: #ffffff;
+    text-align: center;
+    padding: 100px 20px;
+}
+.hero h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+.hero p {
+    font-size: 20px;
+}
+
+/* About */
+section {
+    padding: 20px 40px;
+    text-align: center;
+}
+section h2 {
+    margin-bottom: 20px;
+    color: #222;
+}
+section p {
+    max-width: 600px;
+    margin: auto;
+}
+
+/* Projects */
+.projects {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.projects-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+.projects-card:hover {
+    transform: scale(1.05);
+}
+.projects-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
